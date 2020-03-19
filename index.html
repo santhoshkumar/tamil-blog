@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<h1 class="title is-4 has-text-centered">{{site.title}} 😊</h1>
+
+<br>
+
+{% for post in paginator.posts %}
+
+<p>
+<span class="post-tags">
+  Posted in
+  {% if post %}
+  {% assign tags = post.tags %}
+  {% else %}
+  {% assign tags = page.tags %}
+  {% endif %}
+  {% for tag in tags %}
+  <a href="{{site.baseurl}}/tags/#{{tag|slugify}}">{{tag}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</span>
+</p>
+
+<p>{{post.content}}</p>
+
+<p class="has-text-centered">
+<a class="button is-warning join-more" href="{{ site.baseurl }}{{ post.url }}">மேலும் படிக்க</a>
+</p>
+<hr>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<div class="level level-item has-text-centered" role="navigation" aria-label="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev &nbsp;&nbsp;</a>
+  {% else %}
+    <span>&nbsp;&nbsp; &laquo; Prev &nbsp;&nbsp;</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span>{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="{{site.baseurl}}/">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&nbsp;&nbsp; Next &raquo;</a>
+  {% else %}
+    <span>&nbsp;&nbsp; Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
