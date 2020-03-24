@@ -5,7 +5,7 @@ date: 2020-03-19 19:31 +0530
 permalink: "/status-post-4/"
 tags: [Tamil Facts]
 author: Tamil SMS
-image: "/assets/sanstatus-mytmxsetup1.jpg"
+image: "/assets/tamil-status-thumb.jpg"
 ---
 
 அடுத்த நொடி  

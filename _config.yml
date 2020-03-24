@@ -54,7 +54,7 @@ jekyll_compose:
       permalink:
       tags:
       author: "Tamil SMS"
-      image: "/assets/sanstatus-mytmxsetup1.jpg"
+      image: "/assets/tamil-status-thumb.jpg"
 
 sass:
   sass_dir: /assets/css/_sass

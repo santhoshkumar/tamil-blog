@@ -5,7 +5,7 @@ date: 2020-03-19 23:38 +0530
 permalink: "/status-post-5/"
 tags: [Tamil Whatsapp Status]
 author: Tamil SMS
-image: "/assets/sanstatus-mytmxsetup1.jpg"
+image: "/assets/tamil-status-thumb.jpg"
 ---
 
 எப்போது  

@@ -5,7 +5,7 @@ date: 2020-03-19 19:02 +0530
 permalink: "/status-post-2/"
 tags: [Tamil Motivation]
 author: Tamil SMS
-image: "/assets/sanstatus-mytmxsetup1.jpg"
+image: "/assets/tamil-status-thumb.jpg"
 ---
 
 நம்மை அலட்சியமாக  

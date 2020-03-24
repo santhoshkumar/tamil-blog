@@ -4,7 +4,7 @@ title:  "அதிகமாய் கிடைப்பதாலும் "
 permalink: "/status-post-1/"
 tags: [Tamil Life Quotes]
 author: "Tamil SMS"
-image: "/assets/sanstatus-mytmxsetup1.jpg"
+image: "/assets/tamil-status-thumb.jpg"
 ---
 
 அதிகமாய் கிடைப்பதாலும்  
