@@ -5,7 +5,7 @@ date: 2020-03-19 19:07 +0530
 permalink: "/status-post-3/"
 tags: [Anbu Kavithai]
 author: Tamil SMS
-image: "/assets/stamil-status-thumb.jpg"
+image: "/assets/tamil-status-thumb.jpg"
 ---
 
 வெறும்  
