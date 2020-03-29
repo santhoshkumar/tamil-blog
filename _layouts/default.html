@@ -84,41 +84,4 @@ layout: compress
 </section>
 </main>
 
-<footer class="footer">
-<div class="content has-text-centered">
-</p>
-<p class="content has-text-centered">🔮 Crafted by <a href="https://www.facebook.com/sandyarmy" target="_blank" rel="nofollow noopener">Santhosh Veer</a> - Built on Jekyll - Hosted on Github Pages.</p>
-<p><i class="far fa-copyright"></i> 2020 Tamil SMS Blog 😁</p>
-<P class="social-profile">
-<a href="https://feedly.com/i/subscription/feed/https://status.tamilsms.blog/atom.xml" class="rssicon" title="RSS Feed" target="_blank" rel="nofollow noopener"><i class="fas fa-rss-square"></i></a>
-<a href="https://twitter.com/tamilsmsblog" class="twittericon" title="Follow us on Twitter" target="_blank" rel="nofollow noopener"><i class="fab fa-twitter"></i></a>
-<a href="https://www.facebook.com/tamilsmsblog" class="fbicon" title="Follow us on Facebook" target="_blank" rel="nofollow noopener"><i class="fab fa-facebook"></i></a>
-<a href="https://www.instagram.com/tamilsms/" class="instagram" title="Follow us on Instagram" target="_blank" rel="nofollow noopener"><i class="fab fa-instagram"></i></a>
-</P>
-</div>
-</footer>
-
-<script>
-    (function() {
-      var burger = document.querySelector('.burger');
-      var nav = document.querySelector('#' + burger.dataset.target);
-    
-      burger.addEventListener('click', function() {
-          burger.classList.toggle('is-active');
-          nav.classList.toggle('is-active');
-      });
-    })();
-</script>
-
-<script>
-  if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-	navigator.serviceWorker.register('/sw.js')
-	.then(function(registration) { console.log('SuperPWA service worker ready'); registration.update(); })
-	.catch(function(error) { console.log('Registration failed with ' + error); });
-  });
-}
-</script>
-
-</body>
-</html>
+{% include footer.html %}

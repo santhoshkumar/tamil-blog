@@ -68,9 +68,10 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - .sass-cache
-- LICENSE.md
+- LICENCE.md
 - .bundle
 - .asset-cache
+- deploy.sh
 
 future: true
 plugins:
