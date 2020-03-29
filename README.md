@@ -1,6 +1,6 @@
 # Tamil Blog 😊
 
-[![Build Status](https://travis-ci.org/mskian/tamil-blog.svg?branch=master)](https://travis-ci.org/mskian/tamil-blog)
+[![Build Status](https://travis-ci.org/mskian/tamil-blog.svg?branch=master)](https://travis-ci.org/mskian/tamil-blog) ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m784636189-25038ec770c9a72ec1156075?label=Website)  
 
 A Simple Static Site Build using Jekyll 📦
 
@@ -20,10 +20,10 @@ A Simple Static Site Build using Jekyll 📦
 - Layouts
 - PWA Support
 - Lightweight and Minimal
-- Free Hosting Support
+- Free Hosting Support (Github pages and Netlify)
 - Markdown
 - Easy to Setup and Configure
-- Autodeploy to Github Pages using Travis CI
+- Travis CI Test
 
 ## Usage 🛠
 
