@@ -9,14 +9,3 @@ install:
 
 script:
   - bundle exec jekyll build
-
-deploy:
-  provider: pages
-  skip_cleanup: true
-  local_dir: _site
-  repo: mskian/tamil-blog
-  token: $GITHUB_TOKEN
-  keep_history: true
-  fqdn: status.tamilsms.blog
-  on:
-    branch: master
