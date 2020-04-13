@@ -19,6 +19,7 @@ ErrorDocument 404 /404.html
 # Force UTF-8 for certain file formats.
 <IfModule mod_mime.c>
     AddCharset utf-8 .atom .css .js .json .rss .vtt .webapp .xml
+    AddType "text/html; charset=UTF-8" html
 </IfModule>
 
 <Files sw.js>

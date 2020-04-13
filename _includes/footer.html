@@ -38,6 +38,15 @@ if ('serviceWorker' in navigator) {
 }
 </script>
 <script src="{{site.baseurl}}/assets/js/app.js" defer></script>
+<script src="{{site.cdn}}/assets/js/flying-pages.min.js" defer></script>
+<script>
+window.FPConfig = {
+    delay: 0,
+    ignoreKeywords: ["\/ghost", "\/ghost\/#", "\/p\/", "\/signup\/", "\/signin\/", "\/account\/", "#signout", "\/public\/members.js", "?action=signin", "sw.js", "?action=signup", "#", ".png", ".jpeg", ".jpg", ".gif", ".svg", ".json"],
+    maxRPS: 3,
+    hoverDelay: 50
+};
+</script>
 
 </body>
 </html>
