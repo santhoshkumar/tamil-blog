@@ -27,6 +27,9 @@ permalink: /:title/
 paginate: 3
 paginate_path: /page/:num/
 
+feed:
+  path: atom.xml
+
 compress_html:
   clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
   comments: ["<!-- ", " -->"]
@@ -81,3 +84,4 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-compose
+  - jekyll-feed
