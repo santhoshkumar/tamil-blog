@@ -1,7 +1,5 @@
 # Tamil Blog 😊
 
-[![Build Status](https://travis-ci.org/mskian/tamil-blog.svg?branch=master)](https://travis-ci.org/mskian/tamil-blog) ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m784636189-25038ec770c9a72ec1156075?label=Website)  
-
 A Simple Static Site Build using Jekyll 📦
 
 > it's For My Personal Usage to Collect My Favourite Tamil Kavithai, Tamil Quotes and Status.
