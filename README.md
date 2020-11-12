@@ -18,10 +18,8 @@ A Simple Static Site Build using Jekyll 📦
 - Layouts
 - PWA Support
 - Lightweight and Minimal
-- Free Hosting Support (Github pages and Netlify)
 - Markdown
 - Easy to Setup and Configure
-- Travis CI Test
 
 ## Usage 🛠
 
