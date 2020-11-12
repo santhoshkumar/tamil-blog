@@ -65,7 +65,6 @@ sass:
 
 include:
   - _pages
-  - .htaccess
 
 exclude:
 - README.md
