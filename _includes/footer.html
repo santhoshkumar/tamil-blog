@@ -48,6 +48,15 @@ window.FPConfig = {
     hoverDelay: 50
 };
 </script>
-
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script>
+<script>
+new ClipboardJS('.btn');
+if (document.getElementById("btncopy") != null) {
+    document.getElementById("btncopy").addEventListener('click', e => {
+        console.log('copied');
+        document.getElementById("copied").innerHTML = '<div class="notification is-info">kavithai Copied</div>';
+    })
+}
+</script>
 </body>
 </html>
